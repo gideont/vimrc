@@ -1,4 +1,4 @@
-let indent=2
+let indent=4
 let &tabstop=indent         " number of columns occupied by a tab character
 let &softtabstop=indent     " see multiple spaces as tabstops so <BS> does the right thing
 let &shiftwidth=indent      " width for autoindents
@@ -20,3 +20,4 @@ syntax on                   " syntax highlighting
 color elflord                   " set brigher color scheme
 :nmap <F2> :set invnumber<CR>   " shortcut <F2> to toggle line numbers
 set pastetoggle=<F3>            " shortcut <F3> to toggle paste in inside mode
+set mouse=a                     " scroll inside vim in iTerm
